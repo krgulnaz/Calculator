@@ -16,5 +16,24 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            if(this.textBox1.Text == "0")
+            {
+                this.textBox1.Text = button.Text;
+            }
+            else
+            {
+                this.textBox1.Text = textBox1.Text + button.Text;
+            }
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text = "0";
+        }
     }
 }
