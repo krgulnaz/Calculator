@@ -70,12 +70,64 @@ namespace Calculator
             {
                 result = dn1 / dn2;
             }
-            else
+            else if(D =="*")
             {
                 result = dn1 * dn2;
+            }
+            else
+            {
+                result = dn1 * dn2/100;
             }
             //this.part2 = true;
             this.textBox1.Text = result.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double dn, result;
+            dn = Convert.ToDouble(this.textBox1.Text);
+            result = Math.Sqrt(dn);
+            this.textBox1.Text = result.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double dn, result;
+            dn = Convert.ToDouble(this.textBox1.Text);
+            result = Math.Pow(dn,2);
+            this.textBox1.Text = result.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double dn, result;
+            dn = Convert.ToDouble(this.textBox1.Text);
+            result = 1/dn;
+            this.textBox1.Text = result.ToString();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            double dn, result;
+            dn = Convert.ToDouble(this.textBox1.Text);
+            result = -dn;
+            this.textBox1.Text = result.ToString();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            if(!this.textBox1.Text.Contains("."))
+            this.textBox1.Text = this.textBox1.Text + ".";
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text=this.textBox1.Text.Substring(0,this.textBox1.Text.Length-1);
+            if(this.textBox1.Text == "")
+            {
+                this.textBox1.Text = "0";
+            }
+        }
     }
-}
+    }
+
