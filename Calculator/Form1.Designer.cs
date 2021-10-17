@@ -92,12 +92,12 @@
             // 
             // textBox1
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(0, 0);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(412, 80);
-            this.textBox1.TabIndex = 49;
+            this.textBox1.TabIndex = 0;
             this.textBox1.Text = "0";
             // 
             // button24
@@ -108,6 +108,7 @@
             this.button24.TabIndex = 48;
             this.button24.Text = "=";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button23
             // 
@@ -145,6 +146,7 @@
             this.button20.TabIndex = 44;
             this.button20.Text = "+";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button19
             // 
@@ -184,6 +186,7 @@
             this.button16.TabIndex = 40;
             this.button16.Text = "-";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button20_Click);
             // 
             // button15
             // 
@@ -223,6 +226,7 @@
             this.button12.TabIndex = 36;
             this.button12.Text = "X";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button20_Click);
             // 
             // button11
             // 
@@ -262,6 +266,7 @@
             this.button8.TabIndex = 32;
             this.button8.Text = "/";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button20_Click);
             // 
             // button7
             // 
