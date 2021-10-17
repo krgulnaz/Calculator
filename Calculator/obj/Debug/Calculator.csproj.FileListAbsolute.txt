@@ -1,0 +1,10 @@
+E:\Projects\TaskGitHub\Calculator\Calculator\bin\Debug\Calculator.exe.config
+E:\Projects\TaskGitHub\Calculator\Calculator\bin\Debug\Calculator.exe
+E:\Projects\TaskGitHub\Calculator\Calculator\bin\Debug\Calculator.pdb
+E:\Projects\TaskGitHub\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+E:\Projects\TaskGitHub\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+E:\Projects\TaskGitHub\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+E:\Projects\TaskGitHub\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+E:\Projects\TaskGitHub\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+E:\Projects\TaskGitHub\Calculator\Calculator\obj\Debug\Calculator.exe
+E:\Projects\TaskGitHub\Calculator\Calculator\obj\Debug\Calculator.pdb
